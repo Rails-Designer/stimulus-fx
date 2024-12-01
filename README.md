@@ -32,11 +32,12 @@ yarn add stimulus-fx
 
 ```javascript
 // Import everything
-import { registerActions } from "stimulus-fx"
+import { registerActionOptions } from "stimulus-fx";
+registerActionOptions(application);
 
 // Or import specific actions
-import { throttled } from "stimulus-fx/actions"
-application.registerActionOption("throttled", throttled)
+import { throttled } from "stimulus-fx/actions";
+application.registerActionOption("throttled", throttled);
 ```
 
 In your HTML:
