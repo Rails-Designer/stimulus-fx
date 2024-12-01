@@ -36,8 +36,8 @@ import { registerActionOptions } from "stimulus-fx";
 registerActionOptions(application);
 
 // Or import specific actions
-import { throttled } from "stimulus-fx/actions";
-application.registerActionOption("throttled", throttled);
+import { whenOutside } from "stimulus-fx/actions";
+application.registerActionOption("whenOutside", whenOutside);
 ```
 
 In your HTML:
