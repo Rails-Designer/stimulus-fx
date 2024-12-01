@@ -2,8 +2,8 @@
   "name": "stimulus-fx",
   "description": "Collection of useful action options for Stimulus.js controllers",
   "author": "Rails Designer Devs",
-  "version": "1.0.0",
-   "repository": {
+  "version": "1.1.0",
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/rails-designer/stimulus-fx.git"
   },
